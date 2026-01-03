@@ -1,42 +1,38 @@
-# CREDIT RISK MANAGEMENT DATABASE
-============================================================
+# ISCORE CREDIT BUREAU DASHBOARD
 
-## OVERVIEW
-------------------------------------------------------------
-- SQL-based relational database designed for banking credit risk analysis
-- Models real-world banking entities and relationships
-- Focuses on business and risk analysis, not just data storage
+## Overview
+- Interactive Tableau dashboard simulating credit bureau reporting
+- Designed to reflect real banking and financial institution use cases
+- Focuses on portfolio health, segmentation, and risk indicators
 
-## DATASET
-------------------------------------------------------------
-- Simulated banking dataset inspired by Kaggle credit risk data
-- Represents realistic customer, loan, and payment behavior
+## Dashboard Objectives
+- Provide a high-level overview of the credit portfolio
+- Segment customers by risk level and behavior
+- Track delinquency and default trends
+- Support data-driven credit decisions
 
-## DATABASE STRUCTURE
-------------------------------------------------------------
-- Customers: demographic and identification details
-- Accounts: customer-linked banking accounts
-- Loans: loan amount, tenure, status, and exposure
-- Payments: scheduled vs actual repayments
-- Credit Scores: historical credit score tracking
-- Risk Assessments: internal customer risk classification
+## Key Features
+- Multiple dashboards (Overview, Customers, Loans, Defaults)
+- Interactive filters for drill-down analysis
+- Clear KPIs and trend visualizations
+- Clean, business-focused dashboard layout
 
-# BUSINESS USE CASES
-------------------------------------------------------------
-- Identify customers with late or missed payments
-- Track active, closed, and defaulted loans
-- Monitor credit score changes over time
-- Detect high-risk customers with active exposure
-- Analyze outstanding balances and repayment behavior
+## Data Source
+- Credit bureau-style dataset sourced from Kaggle
+- Prepared and structured specifically for analytical reporting
 
-## SKILLS DEMONSTRATED
-------------------------------------------------------------
-- Relational database design and normalization
-- Primary and foreign key relationships
-- Advanced SQL joins and subqueries
-- Aggregation and filtering for risk analysis
-- Business-oriented querying and reporting
+## Files Included
+- Tableau workbook containing dashboards and calculations
+- HTML file for dashboard embedding
+- Screenshot images for dashboard previews
 
-## TOOLS
-------------------------------------------------------------
-- SQL (MySQL / PostgreSQL / SQLite compatible)
+## Skills Demonstrated
+- Business intelligence reporting
+- Dashboard design and data storytelling
+- KPI definition and visualization
+- Translating data into actionable insights
+
+## Tools
+- Tableau Public
+- HTML
+- JavaScript
