@@ -1,27 +1,42 @@
-# iScore-Dashboard2
+# CREDIT RISK MANAGEMENT DATABASE
+============================================================
 
-This project presents an interactive dashboard visualizing credit bureau data, focusing on trends, segmentation, and key indicators.
+## OVERVIEW
+------------------------------------------------------------
+- SQL-based relational database designed for banking credit risk analysis
+- Models real-world banking entities and relationships
+- Focuses on business and risk analysis, not just data storage
 
-View the live dashboard [here](https://jinx0raven.github.io/iScore-Dashboard2/)
+## DATASET
+------------------------------------------------------------
+- Simulated banking dataset inspired by Kaggle credit risk data
+- Represents realistic customer, loan, and payment behavior
 
-You can also view the dashboard on Tableau Public:  
-https://public.tableau.com/app/profile/mrwan.ahmed/viz/iScore/Dashboard1?publish=yes
+## DATABASE STRUCTURE
+------------------------------------------------------------
+- Customers: demographic and identification details
+- Accounts: customer-linked banking accounts
+- Loans: loan amount, tenure, status, and exposure
+- Payments: scheduled vs actual repayments
+- Credit Scores: historical credit score tracking
+- Risk Assessments: internal customer risk classification
 
-## Dashboard Preview
+# BUSINESS USE CASES
+------------------------------------------------------------
+- Identify customers with late or missed payments
+- Track active, closed, and defaulted loans
+- Monitor credit score changes over time
+- Detect high-risk customers with active exposure
+- Analyze outstanding balances and repayment behavior
 
-![Dashboard Screenshot 1](Screenshots/Home.png)  
-![Dashboard Screenshot 2](Screenshots/Customers.png)  
-![Dashboard Screenshot 3](Screenshots/Default.png)  
-![Dashboard Screenshot 4](Screenshots/Sales.png)  
+## SKILLS DEMONSTRATED
+------------------------------------------------------------
+- Relational database design and normalization
+- Primary and foreign key relationships
+- Advanced SQL joins and subqueries
+- Aggregation and filtering for risk analysis
+- Business-oriented querying and reporting
 
-## Tableau Workbook
-
-The file `iScore.twbx` contains the full Tableau dashboard, including visualizations, calculated fields, filters, and data connections based on a Kaggle credit bureau dataset.  
-It can be opened using Tableau Desktop or Tableau Public.
-
-## Technologies Used
-
-- Tableau Public  
-- HTML  
-- JavaScript  
-- Kaggle Dataset
+## TOOLS
+------------------------------------------------------------
+- SQL (MySQL / PostgreSQL / SQLite compatible)
